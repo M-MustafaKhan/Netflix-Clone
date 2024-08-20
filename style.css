@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    animation: slide-in 0.5s;
+}
+nav{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: rgba(245, 245, 245, 0.67);
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+
+.logo{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.logo img{
+    height: 4.25rem;
+    cursor: pointer;
+}
+
+.left{
+    margin: 2rem;
+    width: 28.125rem;
+}
+.left li{
+    list-style: none;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.left{
+    li:hover{
+        color:white;
+    }
+}
+
+.right{
+ margin-left: 35rem;
+}
+.right li{
+    list-style: none;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.right{
+    li:hover{
+        color:white;
+    }
+}
+.kid{
+    img{
+    height: 2rem;
+    padding: 0.5rem;
+    opacity: 0.8;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    }
+}
+.kid{
+    img:hover{
+        opacity: 1;
+        border-radius: 1rem;
+    }
+}
+.dropdown{
+    i{
+        padding: 0.5rem;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}
+.dropdown{
+    i:hover{
+        opacity:1;
+    }
+}
+
+.title{
+    color:aliceblue;
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+}
+.text{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+.img{
+    padding-right: 1rem;
+    font-size: 1.75rem;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.img:hover{
+    opacity: 1;
+}
+
+.text1{
+    color: aliceblue;
+    margin: 0.5rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.img1{
+    margin-top: 0.5rem;
+    display: flex;   
+    overflow: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.subimg img{
+    height: 100%;
+    transition: all 0.5s ease;
+    align-items: center;
+    border: 0.125rem solid grey;
+}
+.subimg{
+    padding: 1.5rem;
+    img:hover{
+        height: 95%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1rem;
+    }
+}
+
+.tvdrama{
+    margin-top: 1.5rem;
+}
+.text2>span{
+    font-weight: 700;
+}
+.text2{
+    color: aliceblue;
+    margin: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.img2{
+    margin-top: 0.5rem;
+    display: flex;   
+    overflow: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.subimg1>img{
+    height: 95%;
+    transition: all 0.5s ease;
+    align-items: center;
+    border: 0.125rem solid grey;
+}
+.subimg1{
+    padding: 1.5rem;
+    img:hover{
+        height: 90%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1rem;
+    }
+}
+
+footer{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.queries{
+    margin: 1.5rem;
+    label{
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+    input{
+        border: 0.05rem solid #e50914;
+        width: 20rem;
+        margin-left: 1rem;
+        text-align: center;
+        color: white;
+        height:1.25rem;
+        border-radius: 0.25rem;
+    }
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    justify-content: space-between;
+    li{
+        list-style: none;
+    }
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    margin: 2rem;
+    line-height: 1rem;
+}
+
+.link1{
+    margin: 2rem;
+    li{
+        font-size: 0.8rem;
+        line-height: 3rem;
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
+    a{
+        padding: 2rem;
+    }
+}
+
+.link1{
+    a:hover{
+        font-size: 0.9rem;
+        color:#e50914;
+    }
+}
+
+.rights{
+    font-size: 0.75rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+
+
